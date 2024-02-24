@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display restaurant name -->
+    <TextView
+        android:id="@+id/restaurantNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Display ordered items -->
+    <TextView
+        android:id="@+id/orderDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Items ordered:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Display subtotal -->
+    <TextView
+        android:id="@+id/subtotalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtotal: $0.00"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Display tax -->
+    <TextView
+        android:id="@+id/taxTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tax (10%): $0.00"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Display total price -->
+    <TextView
+        android:id="@+id/totalPriceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price: $0.00"
+        android:textStyle="bold"/>
+
+</LinearLayout>

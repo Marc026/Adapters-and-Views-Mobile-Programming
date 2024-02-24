@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adapters</string>
+    <string name="ordered_items_from">Ordered Items from: %s</string>
+    <string name="subtotal_format">Subtotal: $%.2f</string>
+    <string name="tax_format">Tax (10%%): $%.2f</string>
+    <string name="total_price_format">Total Price: $%.2f</string>
+</resources>
